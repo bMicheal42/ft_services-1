@@ -1,37 +1,8 @@
 # ft_services
-[![42Project Score](https://badge42.herokuapp.com/api/project/parmarti/ft_services)](https://github.com/JaeSeoKim/badge42)
 
-![logo](https://d33wubrfki0l68.cloudfront.net/eb4e41f2cba0cbc8d119f8d0eb2bd6935cb78fc8/ba7d6/images/community/kubernetes-community-final-02.jpg)
+![be7b34e363d140dd908c944071e26720](https://user-images.githubusercontent.com/73602657/111482917-644a0d80-8745-11eb-83d7-76385b0dfb28.png)
 
-> The project consists of implementing an infrastructure with different services using kubernetes. School project done at 42Madrid.
-
-### Learn Build Teach 🚀
-
-> As I get better, you get better! As I learn, you learn!
-
----
-
-### Index 📋
-You're sections headers will be used to reference location of destination.
-
-- [ft_services](#ft_services)
-		- [Learn Build Teach 🚀](#learn-build-teach-)
-		- [Index 📋](#index-)
-	- [Description](#description)
-		- [Components](#components)
-		- [Technologies](#technologies)
-		- [Technical considerations](#technical-considerations)
-		- [Ports](#ports)
-	- [How To Use](#how-to-use)
-		- [Installation](#installation)
-		- [Usage](#usage)
-	- [References](#references)
-	- [License](#license)
-	- [Author Info](#author-info)
-
----
-
-## Description
+## About
 
 You will discover cluster deployment and management with Kubernetes. You are going to do what is called "clustering".
 The project consists of implementing an infrastructure with different services. For this, we will use ```Kubernetes```, therefore, we will install a cluster that groups several service containers. Each service works in a dedicated container, and the containers have the same name as the associated service. For performance reasons the containers are built on ```Alpine Linux```. To complete the project we need the next components:
@@ -250,35 +221,3 @@ cd ft_services && sh setup.sh
 - Manpage of vsFTPd.conf - [vsFTPd.conf](http://vsftpd.beasts.org/vsftpd_conf.html)
 - InfluxData Documentation - [InfluxData](https://docs.influxdata.com/)
 - Grafana Documentation - [Grafana Labs](https://grafana.com/docs/grafana/latest/)
-- Schema ft_services - [AdrianWR](https://github.com/AdrianWR/ft_services/blob/master/srcs/ft_services.png)
-- Schema kubernetes - [GuillaumeOz](https://github.com/GuillaumeOz/42_Ft_services/blob/master/assets/schema_ft_services.jpg)
-- YAML Object Reference - [GuillaumeOz](https://github.com/GuillaumeOz/42_Ft_services/blob/master/doc/yaml_files.md)
-- Tips for defending - [ft_services on a VM](https://www.notion.so/Ft_services-VM-852d4f9b0d9a42c1a2de921e4a2ac417)
-
-[Back To The Top](#ft_services)
-
----
-
-## License
-
-MIT License
-
-Copyright [2020] [Paris Martínez Ruiz]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-[Back To The Top](#ft_services)
-
----
-
-## Author Info
-
-- Twitter - [@TroyaParisde](https://twitter.com/TroyaParisde)
-- Instagram - [@parisdetroya42](https://instagram.com/parisdetroya42)
-- 42 Madrid - [parmarti](https://profile.intra.42.fr/users/parmarti)
-
-[Back To The Top](#ft_services)
